@@ -1,0 +1,261 @@
+body{
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+
+                            /* Global */
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.button_1{
+    height:38px;
+    background:#0742c2;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+}
+
+
+                            /* Header */
+
+
+header{
+    align-content: center;
+    background:black;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#0742c2 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+header li{
+    align-content: center;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top:10px;
+}
+
+header .highlight, header .current A{
+    color:#316ff5;
+    font-weight:Bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+
+                            /* Showcase */
+
+
+#showcase{
+    min-height:450px;
+    background:url('../img/evening-foggy-forest-376368.jpg') no-repeat 0 -900px;
+    text-align: center;
+    color: #ffffff;
+    border-bottom:#0742c2 3px solid;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+
+                            /* ABOUT */
+
+
+#about .container{
+    align-content: center;
+}
+
+#about .img{
+    float: center;
+    padding: 10px;
+    margin-left: 650px;
+}
+
+#about .box{
+    width: 100%;
+    float: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#about h1{
+
+    text-align: center;
+}
+
+
+
+
+                            /* Main */
+
+#main .container{
+    align-content: center;
+}
+
+
+#main p{
+     text-align: center;
+}
+
+#main h1{
+    text-align: center;
+    text
+}
+
+#main .box{
+    float: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#main .box img{
+    padding: 10px;
+    float: center;
+}
+
+
+
+
+
+                            /* Boxes */
+
+#boxes .container{
+    align-content: center;
+}
+
+
+#boxes h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+#boxes{
+    margin-top:30px;
+}
+
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:100%;
+    padding:10px;
+}
+
+#boxes .box img{
+    height: 90px;
+}
+
+
+                            /* Footer */
+
+
+footer{
+    height:fill;
+    padding:20px;
+    color:#ffffff;
+    background-color: black;
+    text-align: center;
+}
+
+
+                            /* Contact Form */
+
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    resize: vertical
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #316ff5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom:20px;
+    margin-right: 50px;
+    float: center;
+}
+
+input[type=submit]:hover {
+    background-color: #0742c2;
+}
+
+input[type=reset] {
+    width: 20%;
+    background-color: #316ff5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom:20px;
+    float: center;
+}
+
+input[type=reset]:hover {
+    background-color: #0742c2;
+}
+
+
+#contact {
+    background-color: white;
+}
+
+#contact .container{
+    float: center;
+    text-align: center;
+}
+
+
